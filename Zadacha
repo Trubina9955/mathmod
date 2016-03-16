@@ -1,0 +1,7 @@
+iris[iris$Species==c("setosa","virginica", "versicolor"),]
+iris[iris$Species=="setosa" ,c("Sepal.Length")]
+iris[iris$Species=="virginica" ,c("Sepal.Length")]
+iris[iris$Species=="versicolor" ,c("Sepal.Length")]
+summary(iris[iris$Species=="setosa" ,c("Sepal.Length")])
+summary(iris[iris$Species=="virginica" ,c("Sepal.Length")])
+summary(iris[iris$Species=="versicolor" ,c("Sepal.Length")])
